@@ -4,6 +4,8 @@ import java.util.Scanner;
 import ru.university.lab2.numbers.IntegerTask;
 import ru.university.lab2.floatpoint.FloatTask;
 import ru.university.lab2.bitwise.BitwiseTask;
+import ru.university.lab2.arrays.ArrayTask ;
+import ru.university.lab2.strings.StringTask ;
 
 public class Main {
     public static void main(String[] args) {
@@ -40,6 +42,8 @@ public class Main {
                 case 1 -> new IntegerTask().run();
                 case 2 -> new FloatTask().run();
                 case 3 -> new BitwiseTask().run();
+                case 4 -> new StringTask().run();
+                case 5 -> new ArrayTask().run();
                 case 0 -> System.out.println("Выход...");
                 default -> System.out.println("Задания с таким номером не существует.");
             }
