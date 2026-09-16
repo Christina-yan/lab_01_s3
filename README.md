@@ -31,87 +31,47 @@
 
 ## Структура проекта
 
-java-labs/
-├─ src/
-│  └─ ru/university/lab2/
-│     ├─ Main.java          # Главный класс с меню
-│     ├─ numbers/           # Задания с целыми числами
-│     ├─ floatpoint/        # Вещественные числа
-│     ├─ bitwise/           # Побитовые операции
-│     ├─ strings/           # Работа со строками
-│     ├─ arrays/            # Одномерные массивы
-│     ├─ matrix/            # Матрицы
-│     └─ methods/           # Рекурсия и перегрузка
-├─ manifest.mf              # Файл манифеста для JAR
-├─ build.sh                 # Скрипт сборки для Linux/macOS
-├─ build.bat                # Скрипт сборки для Windows
-└─ README.md
-Инструкция по сборке и запуску
-Способ 1: Использование скрипта (Рекомендуется)
-Если вы используете Windows, запустите:
+- java-labs/
+- ├─ src/
+- │  └─ ru/university/lab2/
+- │     ├─ Main.java          # Главный класс с меню
+- │     ├─ numbers/           # Задания с целыми числами
+- │     ├─ floatpoint/        # Вещественные числа
+- │     ├─ bitwise/           # Побитовые операции
+- │     ├─ strings/           # Работа со строками
+- │     ├─ arrays/            # Одномерные массивы
+- │     ├─ matrix/            # Матрицы
+- │     └─ methods/           # Рекурсия и перегрузка
+- ├─ manifest.mf              # Файл манифеста для JAR
+- ├─ build.sh                 # Скрипт сборки для Linux/macOS
+- ├─ build.bat                # Скрипт сборки для Windows
+- └─ README.md  
 
-Bash
-
-build.bat
-Если вы используете Linux/macOS:
-
-Bash
-
-bash build.sh
-
-Способ 2: Ручная сборка через терминал
-Компиляция:
-Bash
-
-javac -d out -sourcepath src src/ru/university/lab2/Main.java
-Создание JAR-файла:
-Bash
-
-jar cfm Lab2.jar manifest.mf -C out .
-Запуск:
-Bash
-
-java -jar Lab2.jar
-Технологии
-Java 25 (LTS)
-Манифест для указания Main-Class.
-Сборка без использования сред разработки (IDE автоматизации).
+Инструкция по сборке и запуску  
+Способ 1: Использование скрипта  
+Если вы используете Windows, запустите:  
+build.bat  
 
 
----
+Если вы используете Linux/macOS:  
+bash build.sh  
 
-### Советы по заполнению:
-1. **README.md** должен лежать в самом корне папки `java-labs`.
-2. Если ты переименовала какие-то папки (например, вместо `floatpoint` назвала `numbers2`), обязательно поправь это в разделе "Структура проекта".
-3. **Про Git:** Не забудь добавить папку `out/` и файл `Lab2.jar` в твой `.gitignore`, чтобы они не попали в репозиторий. Преподаватель должен видеть только исходники и скрипты.
 
-Теперь у тебя есть полное описание проекта! Тебе осталось только залить всё это в Git и сделать Pull Request. Если нужно помочь с `.gitignore`, скажи!
-Способ 1: Использование скрипта (Рекомендуется)
-Если вы используете Windows, запустите:
+Способ 2: Ручная сборка через терминал  
 
-Bash
+Компиляция:  
+javac -d out -sourcepath src src/ru/university/lab2/Main.java  
 
-build.bat
-Если вы используете Linux/macOS:
 
-Bash
+Создание JAR-файла:  
+jar cfm Lab2.jar manifest.mf -C out .  
 
-bash build.sh
-Способ 2: Ручная сборка через терминал
-Компиляция:
-Bash
 
-javac -d out -sourcepath src src/ru/university/lab2/Main.java
-Создание JAR-файла:
-Bash
+Запуск:  
+java -jar Lab2.jar  
 
-jar cfm Lab2.jar manifest.mf -C out .
-Запуск:
-Bash
 
-java -jar Lab2.jar
-Технологии
-Java 25 (LTS)
-Манифест для указания Main-Class.
-Сборка без использования сред разработки (IDE автоматизации).
-
+Технологии  
+Java 25 (LTS)  
+Манифест для указания Main-Class.  
+Сборка без использования сред разработки (IDE автоматизации).  
