@@ -2,6 +2,7 @@ package ru.university.lab2;
 
 import java.util.Scanner;
 import ru.university.lab2.numbers.IntegerTask;
+import ru.university.lab2.floatpoint.FloatTask;
 
 public class Main {
     public static void main(String[] args) {
@@ -36,7 +37,7 @@ public class Main {
             // 8.2
             switch (choice) {
                 case 1 -> new IntegerTask().run();
-                // case 2 -> ;
+                case 2 -> new FloatTask().run();
                 case 0 -> System.out.println("Выход...");
                 default -> System.out.println("Задания с таким номером не существует.");
             }
