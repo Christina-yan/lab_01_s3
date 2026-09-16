@@ -3,6 +3,7 @@ package ru.university.lab2;
 import java.util.Scanner;
 import ru.university.lab2.numbers.IntegerTask;
 import ru.university.lab2.floatpoint.FloatTask;
+import ru.university.lab2.bitwise.BitwiseTask;
 
 public class Main {
     public static void main(String[] args) {
@@ -38,6 +39,7 @@ public class Main {
             switch (choice) {
                 case 1 -> new IntegerTask().run();
                 case 2 -> new FloatTask().run();
+                case 3 -> new BitwiseTask().run();
                 case 0 -> System.out.println("Выход...");
                 default -> System.out.println("Задания с таким номером не существует.");
             }
