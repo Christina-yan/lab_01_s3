@@ -6,6 +6,8 @@ import ru.university.lab2.floatpoint.FloatTask;
 import ru.university.lab2.bitwise.BitwiseTask;
 import ru.university.lab2.arrays.ArrayTask ;
 import ru.university.lab2.strings.StringTask ;
+import ru.university.lab2.matrix.MatrixTask;
+import ru.university.lab2.methods.MethodTask;
 
 public class Main {
     public static void main(String[] args) {
@@ -44,6 +46,8 @@ public class Main {
                 case 3 -> new BitwiseTask().run();
                 case 4 -> new StringTask().run();
                 case 5 -> new ArrayTask().run();
+                case 6 -> new MatrixTask().run();
+                case 7 -> new MethodTask().run();
                 case 0 -> System.out.println("Выход...");
                 default -> System.out.println("Задания с таким номером не существует.");
             }
