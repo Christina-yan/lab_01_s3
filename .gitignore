@@ -35,3 +35,4 @@ bin/
 *.jar
 out/
 dist/
+data/*.bin
