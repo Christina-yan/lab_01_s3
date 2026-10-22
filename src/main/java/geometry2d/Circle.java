@@ -1,6 +1,6 @@
-package main.java.geometry2d;
+package geometry2d;
 
-import main.java.exceptions.InvalidFigureParameterException;
+import exceptions.InvalidFigureParameterException;
 import java.util.Objects;
 
 public class Circle implements Figure {
