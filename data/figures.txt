@@ -1,0 +1,5 @@
+# Пример входного файла
+CIRCLE;3.5
+RECTANGLE;4;6
+CIRCLE;1.0
+RECTANGLE;2.5;2.5
