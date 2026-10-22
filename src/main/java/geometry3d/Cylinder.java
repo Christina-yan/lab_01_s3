@@ -1,7 +1,7 @@
-package geometry3d;
+package main.java.geometry3d;
 
-import exceptions.InvalidFigureParameterException;
-import geometry2d.Figure;
+import main.java.exceptions.InvalidFigureParameterException;
+import main.java.geometry2d.Figure;
 
 public class Cylinder {
 

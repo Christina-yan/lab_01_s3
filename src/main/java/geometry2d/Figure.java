@@ -1,4 +1,4 @@
-package geometry2d;
+package main.java.geometry2d;
 
 import java.io.Serializable;
 

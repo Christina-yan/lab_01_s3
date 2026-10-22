@@ -1,7 +1,7 @@
-package storage;
+package main.java.storage;
 
-import exceptions.InvalidFigureRecordException;
-import geometry2d.Figure;
+import main.java.exceptions.InvalidFigureRecordException;
+import main.java.geometry2d.Figure;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.List;

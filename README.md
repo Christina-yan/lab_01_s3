@@ -26,8 +26,8 @@ java -cp out app.Main data/figures.txt data/figures.bin
 
 ### Пакеты
 
-- `geometry2d` — интерфейс `Figure`, классы `Circle`, `Rectangle`
-- `geometry3d` — класс `Cylinder`
-- `exceptions` — собственные исключения
-- `storage` — интерфейс `FigureStorage` и две реализации
+- `main.java.geometry2d` — интерфейс `Figure`, классы `Circle`, `Rectangle`
+- `main.java.geometry3d` — класс `Cylinder`
+- `main.java.exceptions` — собственные исключения
+- `main.java.storage` — интерфейс `FigureStorage` и две реализации
 - `app` — точка входа `Main`

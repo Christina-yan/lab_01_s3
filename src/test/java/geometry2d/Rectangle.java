@@ -1,6 +1,6 @@
-package geometry2d;
+package test.java.geometry2d;
 
-import exceptions.InvalidFigureParameterException;
+import main.java.exceptions.InvalidFigureParameterException;
 
 import java.util.Objects;
 

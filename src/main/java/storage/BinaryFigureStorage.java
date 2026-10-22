@@ -1,6 +1,6 @@
-package storage;
+package main.java.storage;
 
-import geometry2d.Figure;
+import main.java.geometry2d.Figure;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
