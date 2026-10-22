@@ -12,9 +12,6 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Бинарная реализация хранилища на основе сериализации Java.
- */
 public class BinaryFigureStorage implements FigureStorage {
 
     @Override

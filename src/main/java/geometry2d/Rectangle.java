@@ -37,7 +37,7 @@ public class Rectangle implements Figure {
 
     @Override
     public double area() {
-        return width * height;
+        return width * height;   //*
     }
 
     @Override
