@@ -31,7 +31,13 @@ bin/
 
 .idea/
 *.iml
+*.iws
+*.ipr
 *.class
 *.jar
+*.log
 out/
 dist/
+
+### Maven ###
+target/
